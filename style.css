@@ -159,3 +159,16 @@ section[id]{
     color: #3aa5ec;
     transform: scale(1.1);
 }
+.CV{
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+button{
+    width: 300px;
+    margin: 0px auto;
+    padding: 8px;
+}
