@@ -28,6 +28,7 @@ body{
     font-weight: 100;
     margin: 30px 0 20px;
     border-radius: 15px;
+    background: rgba(0, 0, 0, .4);
 }
 
 .box h2{
@@ -45,6 +46,7 @@ body{
 .box ul li{
     display: inline-block;
 }
+
 .box ul li a{
     color:aqua;
     font-size: 70px;
@@ -54,6 +56,106 @@ body{
 }
 
 .box ul a:hover{
-    color: #b9b9b9;
+    color: #3aa5ec;
+    transform: scale(1.1);
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #4b82e9;
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: right;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #09f01c;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 80%;
+}
+.contact h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+}
+
+.contact p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: darkcyan;
+}
+
+.contact{
+    width: 500px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.contact img{
+    width: 80%;
+}
+
+.media{
+    width: 500px;
+    background: rgba(248, 246, 246, 1);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: rgb(43, 149, 248);
+    text-align: center;
+}
+
+.media ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.media ul li{
+    display: inline-block;
+}
+
+.media ul li a i{
+    color:aqua;
+    font-size: 70px;
+    padding: 10px 5px;
+    display: block;
+    transition: all .5s ease-in-out;
+}
+
+.media ul a:hover{
+    color: #3aa5ec;
     transform: scale(1.1);
 }
